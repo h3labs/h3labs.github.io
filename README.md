@@ -1,4 +1,4 @@
-h3labs.github.io
-================
+h3labs
+======
 
-Page repository for H3 Laboratories
+H3 Labs Website template
