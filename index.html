@@ -1,111 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <title>H3 Laboratories | El Paso, Texas - Makerspace/Hackerspace</title>
-    <meta name="description" content="We are a makerspace located in El Paso, Texas. We offer space and tools for members to work on anything they want, from electronics to Chemistry." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <meta name="google-site-verification" content="pedrIXa-MlK_fA110zJj51xgm4VrjXOeBiuQMYTESHQ" />
-    <!-- <meta name="viewport" content="width=590"> -->
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="css/page-style.css">
-    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <!-- Isotope Library -->
-    <link rel="stylesheet" href="css/isotopecss.css">
-    <!--Jotform -->
-    <link href="https://secure.jotform.us/min/g=formCss?3.1.1592" rel="stylesheet" type="text/css" />
-	<!--<link type="text/css" rel="stylesheet" href="https://secure.jotform.us/css/styles/nova.css?3.1.1592" />-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>H3 Laboratories | Github Repository by h3labs</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-  	<?php include_once("analyticstracking.php") ?>
-  	<div class="container" id="header-container">
-  		<div id="masthead">
-  		<div id="introduction"><img src="assets/img/logo-retina.png" width="247px" height="52px" alt="H3 Laboratories"></div>
-  		<div class="navbar hidden-phone" id="navigation-menu">
-				<div class="navbar-inner" id="responsive-navbar">
-					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-        			<span class="icon-bar"></span>
-      				</a>
-					<?php wp_nav_menu( array('menu' => 'Header Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-collapse hidden-phone' )); ?>
-				</div>
-		</div>
-		<!-- Phone visible HTML -->
-					<div class="navbar visible-phone" id="navigation-menu-phone">
-  					<div class="navbar-inner">
-  						<div class="container">
-  							<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-  							<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-  								<span class="icon-bar"></span>
-  								<span class="icon-bar"></span>
-  								<span class="icon-bar"></span>
-  							</a>
-  							<!-- Be sure to leave the brand out there if you want it shown -->
-  							<a class="brand" href="http://h3laboratories.com"><b><i>Main Menu</i></b></a>
-  							<!-- Everything you want hidden at 940px or less, place within here -->
-  							<div class="nav-collapse collapse">
-  								<?php wp_nav_menu( array('menu' => 'Header Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_class' => 'nav nav-collapse' )); ?>
-  							</div>
-  						</div>
-  					</div>
-  					</div>
-		<!-- ------------------ -->
-		</div>
-		</div>
+    <div class="wrapper">
+      <header>
+        <h1>H3 Laboratories | Github Repository</h1>
+        <p></p>
 
 
-<div class="container">
-  		<div id="activities-descr">
-  			<div id="descr-title"><h1>El Paso's Makerspace</h1></div>
-  			<div id="descr-text"><h3>What interests you?</h3></div>
-  			<div class="container" id="mailing-list-header">
-  				<h3>Sign up to our mailing list!</h3>
-  				<?php get_template_part( 'list-part' ); ?>
-  			</div>
-  			<div id="filters">
-  				<!--<div id="filter-title">Filters</div>-->
-  				<ul id="filter-elements" class="inline">
-  					<li><a href="#" data-filter=".electronics"><i class="icon-tag"></i> Electronics</a></li>
-  					<li><a href="#" data-filter=".outdoor"><i class="icon-tag"></i> Outdoors</a></li>
-  					<li><a href="#" data-filter=".ham"><i class="icon-tag"></i> Radio</a></li>
-  					<li><a href="#" data-filter=".chemistry"><i class="icon-tag"></i> Chemistry</a></li>
-  					<li><a href="#" data-filter="*"><i class="icon-tag"></i> Show All</a></li>
-  				</ul>
-  			</div>
-  		</div>
-  	
+        <p class="view"><a href="https://github.com/h3labs">View My GitHub Profile</a></p>
 
+      </header>
+      <section>
+        <h1>
+<a name="h3-laboratories" class="anchor" href="#h3-laboratories"><span class="octicon octicon-link"></span></a>H3 Laboratories</h1>
 
-<div class="container">
-    <div id="footer-wrapper">
-    		<div id="footer-links">
-    		<?php wp_nav_menu( array('menu' => 'Header Menu', 'items-_wrap' => '%3$s', 'container' => false, 'menu_id' =>'footer-list', 'menu_class' => 'inline' )); ?>
-    		</div>
-    	
-    	<div id="h3-teaser">H3 / Tritium Labs | A Maker movement project.</div>
-    	<div id="footer-license">Proudly powered by WordPress, Website handcrafted by Guillermo Vargas @ Slackentie Group, LLC</div>
-    	<div id="mailing-list-form" class="input-append">
-    	<div id="sign-up-instructions">Sign up to our mailing list!</div>
-    	<form class="jotform-form" action="https://secure.jotform.us/submit.php" method="post" name="form_30436353195150" id="30436353195150" accept-charset="utf-8">
-				<input type="hidden" name="formID" value="30436353195150" />
-							<div id="form-inputs">
-								<input type="text" id="input_1" name="q1_email" size="40" style="width:180px;" />
-								<button id="input_2" type="submit" class="btn btn-primary">Sign Up</button>
-							</div>
-				<input type="hidden" id="simple_spc" name="simple_spc" value="30436353195150" />
-				<script type="text/javascript">
-					document.getElementById("si" + "mple" + "_spc").value = "30436353195150-30436353195150";
-				</script>
-		</form>
-    	</div>
-    	</div>
+<h1></h1>
+
+<p>El Paso's First and Only Makerspace.</p>
+
+<p>If you are looking for the official website go to: <a href="http://h3laboratories.com">http://h3laboratories.com</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/init.js"></script>
-    <script src="<?php bloginfo('stylesheet_directory'); ?>/assets/js/jquery.isotope.min.js"></script>
-    <script src="<?php bloginfo('stylesheet_directory'); ?>/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://raw.github.com/paulirish/infinite-scroll/master/jquery.infinitescroll.min.js"></script>
+    <script src="javascripts/scale.fix.js"></script>
+    
   </body>
 </html>
